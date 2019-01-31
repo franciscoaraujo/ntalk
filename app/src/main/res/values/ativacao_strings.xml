@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_ativacao">br.com.grupocriar.ativacaocriar.ATIVACAO</string>
+    <string name="url_ativacao"><![CDATA[http://iridio.keynet.com.br:443/cvm/lista_versoes.jsp?id=44&instancia=23&programa=39&plataforma=5&ambiente=1]]></string>
+    <string name="ativacao_msg_aplicativo_nao_instalado">A "ATIVAÇÃO CRIAR" NÃO FOI ENCONTRADO, VERIFIQUE SE O MESMO ESTÁ INSTALADO.</string>
+</resources>

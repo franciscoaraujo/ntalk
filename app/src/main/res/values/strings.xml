@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NTalk</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="dropTbl1">drop table mensagem_tbl</string>
+    <string name="dropTbl2">drop table mensagem_interacao_tbl</string>
+    <string name="dropTbl3">drop table interlocutor_tbl</string>
+    <string name="dropTbl4">drop table historico_operador_tbl</string>
+
+</resources>

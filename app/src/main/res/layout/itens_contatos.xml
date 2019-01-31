@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center">
+        <!-- Your card content -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:id="@+id/idImagen"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_fotos_contatos"
+                android:src="@drawable/ic_account_circle_white_48dp" />
+
+
+            <TextView
+                android:id="@+id/nomeUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Francisco Jose"
+                android:textColor="@color/textEdit"
+                android:textSize="18dp" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/id_departamento"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="25dp"-->
+            <!--android:text="Departamento"-->
+            <!--android:textColor="@color/textEdit" />-->
+
+
+        </LinearLayout>
+
+        <!--</LinearLayout>-->
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

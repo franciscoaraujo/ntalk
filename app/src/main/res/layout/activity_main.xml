@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundList"
+    tools:context=".main.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_contatos_conversas"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorActionBar"
+        android:elevation="4dp"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/id_nome_contato_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N-Talk"
+            android:textColor="@color/textTitle"
+            android:textSize="20dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_contents_conversar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="95dp"
+        android:clipToPadding="false"
+        android:elevation="0dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float_buttom_contatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:src="@drawable/ic_chat_white_48dp"
+        app:backgroundTint="#FFC107" />
+
+</RelativeLayout>

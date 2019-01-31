@@ -1,0 +1,12 @@
+create table mensagem_tbl(
+	id_mensagem_local integer primary key autoincrement,
+	id_mensagem_servidor integer ,
+    id_interlocutor_remetente integer,/*aqui eh o id do interlocutor usuario do celular*/
+	id_interlocutor_destinatario integer,/*aqui é o id do interlocutor cliente*/
+	conteudo varchar (500),
+	data_hora_mensagem datetime,
+	nome_destinatario varchar(120),
+	nome_remetente varchar(120),
+	id_mensagem_iteracao integer
+
+);

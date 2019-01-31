@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context=".activity.ConversasActivity">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_mensagens"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorActionBar"
+            app:popupTheme="@style/Theme.AppCompat.Light"
+            android:elevation="4dp"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/id_nome_contato_toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome usuario"
+                android:textColor="@color/textTitle"
+                android:textSize="15dp" />
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/id_recycle_conversas"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginBottom="68dp"-->
+    <!--android:layout_marginLeft="4dp"-->
+    <!--android:layout_marginRight="4dp"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:scrollbars="vertical" />-->
+
+    <ListView
+        android:id="@+id/lv_conversas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+
+        android:layout_marginTop="50dp"
+        android:background="#E0E0E0"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/txtMensagem"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/input_text_radios"
+        android:backgroundTint="#FFF"
+        android:hint="Digite aqui..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btnEnviar"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <requestFocus />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnEnviar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="15dp"
+        android:clickable="true"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_send_white_24dp"
+        app:backgroundTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+</android.support.constraint.ConstraintLayout>

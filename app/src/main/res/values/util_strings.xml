@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instalar">INSTALAR</string>
+    <string name="alerta">ALERTA</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="cancelado">CANCELADO</string>
+    <string name="tentar_novamente">TENTAR NOVAMENTE</string>
+    <string name="telefone_suporte">0800-942-9423</string>
+</resources>

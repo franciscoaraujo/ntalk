@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="verificando_versao">AGUARDE, VERIFICANDO VERSÃO...</string>
+    <string name="versao_atualizada">VERSÃO ATUALIZADA.</string>
+    <string name="versao_desatualizada">VERSÃO DESATUALIZADA.</string>
+    <string name="versao_nao_encontrada">VERSÃO NÃO ENCONTRADA.</string>
+    <string name="instalando">AGUARDE A INSTALAÇÃO...</string>
+    <string name="msg_cvm_geral">FALHA AO VERIFICAR VERSÃO, ENTRE EM CONTATO COM O SUPORTE: %s.</string>
+    <string name="msg_cvm_conexao">VERIFIQUE SUA CONEXÃO COM A INTERNET OU ENTRE EM CONTATO COM O SUPORTE: %s.</string>
+</resources>
